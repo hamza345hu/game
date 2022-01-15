@@ -1,0 +1,33 @@
+.grid .blocks{
+    display: flex;
+    flex-flow: wrap;
+    margin: 79px auto;
+    width: 336px;
+    background-color: #efefef;
+    padding: 20px;
+}
+.grid .blocks .block{
+    padding: 5px;
+    background-color: #d6d8e5;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.blocks .block .memory-block{
+    width: 65px;
+    height: 65px;
+    /* transform: rotateY(50deg); */
+
+}
+.blocks .block .memory-block .front{
+    position: absolute;
+    /* transform: rotateY(180deg); */
+}
+.blocks .block .memory-block .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgb(155, 101, 101);
+}
